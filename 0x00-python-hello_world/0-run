@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 $PYFIL0E
+python3 $PYCODE
