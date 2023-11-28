@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def add(x, y):
+def pow(x, y):
     return (x ** y)
