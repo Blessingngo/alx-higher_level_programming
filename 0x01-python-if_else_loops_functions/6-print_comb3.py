@@ -1,4 +1,7 @@
 #!/usr/bin/python3
-for tens_digit in range(10):
-    for ones_digit in range(tens_digit + 1, 10):
-        print("{:d}{:d}".format(tens_digit, ones_digit), end=", ")
+for ten_digit in range(0, 9):
+    for one_digit in range(ten_digit + 1, 10):
+        if ten_digit == 8:
+            print("{:d}{:d}".format(ten_digit, one_digit))
+            break
+        print("{:d}{:d}".format(ten_digit, one_digit), end=", ")
